@@ -110,7 +110,7 @@ setTimeout(function(){
 		FastClick.attach(document.html)
 	})
 	//统计代码，务必去掉
-	$.j('http://1.mouto.org/x.js')
+	// $.j('http://1.mouto.org/x.js')
 },1e3)
 
 
