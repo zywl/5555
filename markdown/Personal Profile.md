@@ -4,21 +4,15 @@
 
 ####properties of mine
 ```
-name:
-            luoyedaren
+name:       luoyedaren
 
-age:
-            29
+age:        29
 
-sex:
-            male
+sex:        male
 
-hobby:
-            NBA | book | English | health...
+hobby:      NBA | book | English | health...
 
-profession:
-
-            java | web | linux...
+profession: java | web | linux...
 ```
 
 >note:
