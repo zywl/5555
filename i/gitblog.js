@@ -78,7 +78,7 @@ postShow=function(url){
 	html.setAttribute('step','article')
 
 	MD('.article',{
-		text:'<img src="http://ww1.sinaimg.cn/large/b07e5053gy1fej1rfc36lj207x07ijre.jpg">',
+		text:'<img src="http://ww1.sinaimg.cn/large/b07e5053gy1fej2fuvq2hj203400ot8h.jpg">',
 		size:'233'
 	})
 	console.log(url)
