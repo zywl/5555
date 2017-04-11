@@ -96,11 +96,12 @@ html[step="article"] section{
 }
 
 
-.daohang ul li {
-	display: inline;
-	background: #F93;
-	padding: 5px;
-}
+<ul>
+    <li>Item1</li>
+    <li>Item2</li>
+    <li>Item3</li>
+    <li>Item4</li>
+</ul>
 
 
 
