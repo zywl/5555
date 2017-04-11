@@ -19,6 +19,8 @@ xmp{
 	color:#DDD;
 }
 
+ul li{display:inline;background:#F93; padding:5px;}}
+
 header{
 	text-align:center;
 	padding:3em 0;
@@ -94,14 +96,6 @@ html[step="home"] .article{
 html[step="article"] section{
 	display:none;
 }
-
-
-<ul>
-    <li>Item1</li>
-    <li>Item2</li>
-    <li>Item3</li>
-    <li>Item4</li>
-</ul>
 
 
 
