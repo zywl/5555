@@ -29,9 +29,6 @@ http://ww4.sinaimg.cn/large/a15b4afegw1ew1dr2td51g20m80b4glv
 ##如何修改博客名称？
 修改 `index.html` 中的 `title` 和 `h1` 标签内容即可
 
-##这个版本和「妹 Blog」正式版 什么关系？
-没任何关系！如果对速度要求更高，并且更喜欢折腾的同学可以围观 https://github.com/itorr/imouto
-
 ##预览地址
 http://im.front.dog
 
