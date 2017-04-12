@@ -36,16 +36,17 @@ header p{
 	color:#999;
 	margin:0;
 }
+a{text-decoration:none} //
 .post a {
           font-family: "微软雅黑","Open Sans","Helvetica Neue",Arial,sans-serif;
           position: relative;
           line-height: 36px;
-          color: #22a7f0;
+          color: #222;
           text-decoration: none;
         }
 
         .post a:hover {
-          color: #22a7f0;
+          color: #222;
         }         
         .post a:before {
           content: "";
@@ -54,7 +55,7 @@ header p{
           height: 2px;
           bottom:-5px;
           left: 0;
-          background-color: #019875;
+          background-color: #222;
           visibility: hidden;
           -webkit-transform: scaleX(0);
           -o-transform: scaleX(0);
