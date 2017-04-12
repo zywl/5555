@@ -1,4 +1,4 @@
-Nginx永久301转向https写法
+Nginx永久301跳转https写法
 
 最近安装ssl证书,但是nginx如何转向https我百度了很久 ！
 
