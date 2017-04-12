@@ -1,5 +1,7 @@
 Hello word
 
+---
+
 ##妹 Blog - GitHub Pages 特别版
 
 http://ww4.sinaimg.cn/large/a15b4afegw1ew1dr2td51g20m80b4glv
