@@ -36,7 +36,7 @@ header p{
 	color:#999;
 	margin:0;
 }
-.section a {
+.post a {
           font-family: "微软雅黑","Open Sans","Helvetica Neue",Arial,sans-serif;
           position: relative;
           line-height: 36px;
@@ -44,10 +44,10 @@ header p{
           text-decoration: none;
         }
 
-        .section a:hover {
+        .post a:hover {
           color: #22a7f0;
         }         
-        .section a:before {
+        .post a:before {
           content: "";
           position: absolute;
           width: 100%;
@@ -63,7 +63,7 @@ header p{
           -o-transition: all 0.3s ease-in-out 0s;
           transition: all 0.3s ease-in-out 0s;
         }         
-        .section a:hover:before {
+        .post a:hover:before {
           visibility: visible;
           -webkit-transform: scaleX(1);
           -o-transform: scaleX(1);
