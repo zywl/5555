@@ -36,7 +36,7 @@ header p{
 	color:#999;
 	margin:0;
 }
-a {
+.article a {
           font-family: "微软雅黑","Open Sans","Helvetica Neue",Arial,sans-serif;
           position: relative;
           line-height: 36px;
@@ -44,10 +44,10 @@ a {
           text-decoration: none;
         }
 
-        a:hover {
+        .article a:hover {
           color: #22a7f0;
         }         
-        a:before {
+        .article a:before {
           content: "";
           position: absolute;
           width: 100%;
@@ -63,7 +63,7 @@ a {
           -o-transition: all 0.3s ease-in-out 0s;
           transition: all 0.3s ease-in-out 0s;
         }         
-        a:hover:before {
+        .article a:hover:before {
           visibility: visible;
           -webkit-transform: scaleX(1);
           -o-transform: scaleX(1);
