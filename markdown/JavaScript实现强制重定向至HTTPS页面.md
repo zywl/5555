@@ -18,3 +18,14 @@ SSL好不容易部署好了,发现访问不能 跳转到https！
 后面发现这篇文章:<a href="http://www.jb51.net/article/67555.htm" target="_blank">JavaScript实现强制重定向至HTTPS页面</a>意外的发现还不错！虽然不知道对网站收录seo 什么有没有坏处 不管他 反正博客就是折腾!!!
 
 >过几天写一写 这ssl 折腾过程吧！ 睡觉去了   忘记了 明天把多说评论框在https下坑填了
+
+<div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+<script>
+  var cloudTieConfig = {
+    url: document.location.href, 
+    sourceId: "",
+    productKey: "d09efa833885470f8ee5a40327eb664f",
+    target: "cloud-tie-wrapper"
+  };
+</script>
+<script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
