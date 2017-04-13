@@ -174,22 +174,37 @@ html[step="article"] section{
 .text ol li{
 
 }
-.text pre{
-	line-height:1;
-}
-.text pre code{
-	display:block;
-	overflow-x:auto;
-	padding:.5em .7em;
-	background:#23241f;color:#f8f8f2;
+.text pre,code {
+	font-family: "Courier New","Verdana","Trebuchet MS","Helvetica",sans-serif;
 }
 
-.text code{
-	background: #333;
-	color: #FFF;
-	padding: .2em .3em;
-	border-radius: .3em;
-	text-shadow:0 1px 0 #000;
+.text pre {
+	position: relative;
+	line-height: 2rem;
+	margin: 20px 0;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+.text pre code, code {
+	display: block;
+	overflow: auto;
+	max-height: 280px;
+	font-size: .96rem;
+	padding: 1rem 2rem;
+	-webkit-overflow-scrolling: touch;
+	-overflow-scrolling: touch;
+	line-height: 2rem;
+	box-shadow: 0 0 0 1px rgba(0,0,0,.06);
+}
+
+.text code {
+	display: inline-block;
+	margin: 0 .2rem -.4rem;
+	padding: 0 .2rem;
+	color: #2aa;
+	line-height: 1.6rem;
+	border-radius: 3px;
 }
 /*.article ul{padding-left:2em;list-style-type:disc;}*/
 
@@ -216,7 +231,7 @@ html[step="article"] section{
 .text hr {
 	height: 1px;
 	border: none;
-	border-top: 1px dashed #0066CC;
+	border-top: 1px dashed #222;
 }
 .text ul li:after{
 	content:'';
