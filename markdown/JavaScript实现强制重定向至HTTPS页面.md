@@ -1,6 +1,6 @@
 JavaScript实现强制重定向至HTTPS页面
----
-#代码如下:
+***
+代码如下:
 ```javascript
 <script type="text/javascript">
 var targetProtocol = "https:";
