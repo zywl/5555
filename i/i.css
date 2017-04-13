@@ -193,20 +193,39 @@ html[step="article"] section{
 }
 /*.article ul{padding-left:2em;list-style-type:disc;}*/
 
-.text blockquote{
-	font-size:.9em;
-	line-height:1.5;
-	background:#fbf3eb;
-	color:#a8988e;
-	margin:1em .2em;
-	padding:1.2em 1.5em;
-
+.text blockquote {
+ color:#888;
+ background-color: #eae6f3;
+ border-left: 1em solid #5236a0;
+ padding: 1em 1.5em 1em 1.5em;
+ position: relative;
+ font-family: 'Roboto', sans-serif;
+ line-height: 150%;
+ text-indent: 35px;
 }
-.text blockquote p{
-	text-indent:0;
-	margin:0;
+.text blockquote:before {
+  color: #392570;
+  content: "\201C";
+  font-size: 5em;
+  position:absolute;
+  left:-15px;
+  top: 40px;
+  line-height: 0.1em;
 }
-
+.text blockquote:after {
+  color: #392570;
+  content: "\201D";
+  font-size: 5em;
+  position:absolute;
+  right:15px;
+  bottom: 0em;
+  line-height: 0.1em;
+}
+.text hr {
+	height: 1px;
+	border: none;
+	border-top: 1px dashed #0066CC;
+}
 .text ul li:after{
 	content:'';
 	position:absolute;
