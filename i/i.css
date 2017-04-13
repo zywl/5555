@@ -219,12 +219,17 @@ html[step="article"] section{
 	border-radius:9em;
 
 }
-.text a{
-	word-wrap:break-word;
-	word-break:normal;
+.text a:link{
+	color: #222;
 }
 
+.text a:visited {
+	color: #222;
+}
 
+.text a:hover {
+	color: #222;
+}
 
 .article .size{
 	display:block;
