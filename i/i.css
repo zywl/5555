@@ -202,7 +202,7 @@ html[step="article"] section{
 	display: inline-block;
 	margin: 0 .2rem -.4rem;
 	padding: 0 .2rem;
-	color: #2aa;
+	color: #222;
 	line-height: 1.6rem;
 	border-radius: 3px;
 }
@@ -217,7 +217,7 @@ html[step="article"] section{
 }
 
 .text blockquote,q {
-	background: #fafafa;
+	background: #CCE8CF;
 	margin: 20px 0;
 	padding: 2.5rem 4rem;
 	position: relative;
