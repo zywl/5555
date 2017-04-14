@@ -27,6 +27,7 @@ blockquote p {
 }
 ```
 效果图:
+
 ![样式1](http://ww1.sinaimg.cn/large/006eY07Igy1femdx8jfayj30l503m0sq.jpg)
 
 样式2
@@ -75,8 +76,8 @@ blockquote::after{
 ```
 
 效果图:
+
 ![样式2](http://ww1.sinaimg.cn/large/006eY07Igy1femdy5sx0ij30dw04s0tb.jpg)
-http://www.webkaka.com/tutorial/html/2016/100717/
 
 样式3
 ===
@@ -108,6 +109,7 @@ blockquote:after {
 }
 ```
 效果图:
+
 ![样式3](http://ww1.sinaimg.cn/large/006eY07Igy1femdyhalvqj30dw04maah.jpg)
 
 样式4
@@ -125,6 +127,7 @@ Blockquote {
 }   
 ```
 效果图:
+
 ![样式4](http://ww1.sinaimg.cn/large/006eY07Igy1feme0ie1pbj30kf02y74h.jpg)
 
 样式5
@@ -142,6 +145,7 @@ blockquote {
 }  
 ```
 效果图:
+
 ![样式5](http://ww1.sinaimg.cn/large/006eY07Igy1feme1ti4qsj30jv06u0tf.jpg)
 
 样式6
@@ -173,6 +177,7 @@ blockquote {
 }  
 ```
 效果图:
+
 ![样式6](http://ww1.sinaimg.cn/large/006eY07Igy1feme318p38j30hf09q75i.jpg)
 
 
