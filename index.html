@@ -32,13 +32,13 @@
 	  var js, fjs = d.getElementsByTagName(s)[0];
 	  if (d.getElementById(id)) return;
 	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/zh_CN/sdk.js#xfbml=1&version=v2.6";
+	  js.src = "http://connect.facebook.net/zh_CN/sdk.js#xfbml=1&version=v2.6";
 	  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
 
 	<!-- Your embedded comments code -->
 	<div class="fb-comment-embed"
-	   data-href="#/{{url}}" title="{{title}}">{{title}}"
+	   data-href="#/{{url}}" title="{{title}}
 	   data-width="500"></div>
 	<a class="home" href="#/home">&#8629; 返回首页</a>
 	</xmp>
