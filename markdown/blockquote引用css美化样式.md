@@ -28,7 +28,7 @@ blockquote p {
 ```
 效果图:
 
-http://ww1.sinaimg.cn/large/006eY07Igy1femdx8jfayj30l503m0sq.jpg
+http://ww1.sinaimg.cn/large/006eY07Igy1femdx8jfayj30l503m0sq
 
 样式2
 ===
@@ -77,7 +77,7 @@ blockquote::after{
 
 效果图:
 
-http://ww1.sinaimg.cn/large/006eY07Igy1femdy5sx0ij30dw04s0tb.jpg
+http://ww1.sinaimg.cn/large/006eY07Igy1femdy5sx0ij30dw04s0tb
 
 样式3
 ===
@@ -110,7 +110,7 @@ blockquote:after {
 ```
 效果图:
 
-http://ww1.sinaimg.cn/large/006eY07Igy1femdyhalvqj30dw04maah.jpg
+http://ww1.sinaimg.cn/large/006eY07Igy1femdyhalvqj30dw04maah
 
 样式4
 ===
@@ -128,7 +128,7 @@ Blockquote {
 ```
 效果图:
 
-http://ww1.sinaimg.cn/large/006eY07Igy1feme0ie1pbj30kf02y74h.jpg
+http://ww1.sinaimg.cn/large/006eY07Igy1feme0ie1pbj30kf02y74h
 
 样式5
 ===
@@ -146,7 +146,7 @@ blockquote {
 ```
 效果图:
 
-http://ww1.sinaimg.cn/large/006eY07Igy1feme1ti4qsj30jv06u0tf.jpg
+http://ww1.sinaimg.cn/large/006eY07Igy1feme1ti4qsj30jv06u0tf
 
 样式6
 ===
@@ -178,6 +178,6 @@ blockquote {
 ```
 效果图:
 
-http://ww1.sinaimg.cn/large/006eY07Igy1feme318p38j30hf09q75i.jpg
+http://ww1.sinaimg.cn/large/006eY07Igy1feme318p38j30hf09q75i
 
 >以上代码来自网络，版权原作者所有！
