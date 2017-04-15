@@ -27,7 +27,7 @@ ul li{display:inline;background:#F93; padding:5px;}}
 ```
 效果：
 ---
- ![](http://ww1.sinaimg.cn/large/006eY07Igy1femertmf3ej306p016jri.jpg)
+http://ww1.sinaimg.cn/large/006eY07Igy1femertmf3ej306p016jri.jpg
  
 等等，为什么li之间有空隙？？？
 解决办法是：把li写成一行
@@ -39,7 +39,7 @@ ul li{display:inline;background:#F93; padding:5px;}}
 ```
 对，就是写成这样子（不知道是不是bug）
 
-![](http://ww1.sinaimg.cn/large/006eY07Igy1femetpel22j305w011jrg.jpg)
+http://ww1.sinaimg.cn/large/006eY07Igy1femetpel22j305w011jrg.jpg
 
 这个方法有一个弊端：li转为内联元素后，width、height就无效了，只能用padding来撑开宽高。也有一些不便。自己根据需要取舍吧。
 
