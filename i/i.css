@@ -160,21 +160,25 @@ html[step="article"] section{
 .text p{
 	text-indent:1em;
 }
-.text ul{
-	padding:.5em;
-}
-.text ul li{
-	padding-left:1.5em;
-	position:relative;
+.text ol,..text ul {
+	margin: 10px 0;
+	padding: 10px 40px;
+	background: #fafafa;
+	line-height: 38px;
 }
 
-.text ol{
-	padding:.5em;
-	padding-left:40px;
+.text ol li {
+	list-style-type: decimal;
 }
-.text ol li{
 
+.text ul li {
+	list-style-type: disc;
 }
+
+.text ol p,.text ul p {
+	margin: 0
+}
+
 .text pre,code {
 	font-family: "Courier New","Verdana","Trebuchet MS","Helvetica",sans-serif;
 }
