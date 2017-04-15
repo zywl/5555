@@ -84,7 +84,7 @@ postShow=function(url){
 	console.log(url)
 	$.x('markdown/'+en(url),function(text){
 		document.title=text.match(/^.+?(?=\n)/)
-		$.j('https://luoyedaren.github.io/md.js',function(){
+		$.j('http://www.111111111111111111111111111111111111111111111111111111111111.cn/md.js',function(){
 			MD('.article',{
 				text:_md2html(text),
 				size:text.length
