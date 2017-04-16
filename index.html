@@ -25,7 +25,7 @@
 <article class="article">
 	<xmp>
 	<div class="text">{{{text}}}</div>
-	<div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+	<span class="size">{{size}}</span>
 	<a class="home" href="#/home">&#8629; 返回首页</a>
 	</xmp>
 </article>
@@ -39,14 +39,3 @@ gitConfig={
 <script src="i/itorr2.js"></script>
 <script src="i/mustache.js"></script>
 <script src="i/gitblog.js"></script>
-<script src="js/loader.js"></script>
-<script>
-var cloudTieConfig = {
-  url: document.location.href, 
-  sourceId: "",
-  productKey: "d09efa833885470f8ee5a40327eb664f",
-  target: "cloud-tie-wrapper"
-};
-var yunManualLoad = true;
-Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true);
-</script>
