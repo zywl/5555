@@ -4,7 +4,7 @@
 
 http://www.111111111111111111111111111111111111111111111111111111111111.cn/
 
->如果你也想拥有一个这样的，请Fork `https://github.com/itorr/itorr.github.io`
+>如果你也想拥有一个这样的，请Fork `https://github.com/itorr/itorr.github.io` 
 
 >原版默认的css样式难看~估计作者随便写一下就撤退了，我只好百度css美化了改成现在这样子了~~
 
