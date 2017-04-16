@@ -7,6 +7,7 @@
 <meta name="baidu-site-verification" content="HKUPHOxCZq" />
 <link rel="alternate icon" type="image/ico" href="http://benzi-10011942.cos.myqcloud.com/img/1111.ico">
 <link rel="stylesheet" href="i/i.css">
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
 <header>
 	<h1><a href="#/home">六十一のメモ帳</a></h1>
 	<p>“我不知道将去何方，但我已在路上。”</p>
@@ -26,6 +27,7 @@
 	<xmp>
 	<div class="text">{{{text}}}</div>
 	<span class="size">{{size}}</span>
+	<div id="container"></div>
 	<a class="home" href="#/home">&#8629; 返回首页</a>
 	</xmp>
 </article>
@@ -39,3 +41,16 @@ gitConfig={
 <script src="i/itorr2.js"></script>
 <script src="i/mustache.js"></script>
 <script src="i/gitblog.js"></script>
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: 'location.href', // 可选。默认为 location.href
+  owner: '6101',
+  repo: 'https://github.com/6101/6101.github.io/',
+  oauth: {
+    client_id: '6447bb83f15cc98f2178',
+    client_secret: '88828586ee1e1fd1a44dda9758c6044c2792da66',
+  },
+})
+gitment.render('container')
+</script>
